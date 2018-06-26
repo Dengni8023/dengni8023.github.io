@@ -67,7 +67,7 @@ KVC关键方法定义在<Foundation/NSKeyValueCoding.h>文件中，KVC支持类�
 	> 
 	> 获取可变数据后，对获取的可变数据进行操作，会影响原对象的属性值
 	
-示例代码：[- (void)personKVCMutableSetFunction {...}](https://github.com/dengni8023/Denngni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
+示例代码：[- (void)personKVCMutableSetFunction {...}](https://github.com/dengni8023/Dengni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
 
 1. 修改（设置）属性值
 
@@ -93,7 +93,7 @@ KVC关键方法定义在<Foundation/NSKeyValueCoding.h>文件中，KVC支持类�
 
 1. 如果没有找到成员变量，则调用`- (void)setValue:(id)value forUndefinedKey:(NSString *)key`方法。
 
-示例代码：[- (void)personKVCSetSearchFunction {...}](https://github.com/dengni8023/Denngni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
+示例代码：[- (void)personKVCSetSearchFunction {...}](https://github.com/dengni8023/Dengni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
  
 ### 读取属性值搜索方式
 
@@ -122,7 +122,7 @@ KVC关键方法定义在<Foundation/NSKeyValueCoding.h>文件中，KVC支持类�
 
 1. 还没有找到的话，调用`- (id)valueForUndefinedKey:(NSString *)key`方法。
 
-示例代码：[- (void)personKVCGetSearchFunction {...}](https://github.com/dengni8023/Denngni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
+示例代码：[- (void)personKVCGetSearchFunction {...}](https://github.com/dengni8023/Dengni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
 
 ## KVC键值验证KVV
 
@@ -157,7 +157,7 @@ KVC提供很复杂的函数用于操作对象集合，主要有下面这些：
 		4. @min 最小值，`[<#Array#> valueForKeyPath:@"@min.<#key#>"]`
 		5. @sum 求和，`[<#Array#> valueForKeyPath:@"@sum.<#key#>"]`
 
-示例代码：[- (void)personKVCFuncCalculateFuntion {...}](https://github.com/dengni8023/Denngni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
+示例代码：[- (void)personKVCFuncCalculateFuntion {...}](https://github.com/dengni8023/Dengni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
 
 2. 对象运算符2种，如下：
 
@@ -165,7 +165,7 @@ KVC提供很复杂的函数用于操作对象集合，主要有下面这些：
 		1. @distinctUnionOfObjects 元素去重后的Array，`[<#Array#> valueForKeyPath:@"@distinctUnionOfObjects.<#key#>"]`
 		2. @unionOfObjects 元素的全集Array，`[<#Array#> valueForKeyPath:@"@unionOfObjects.<#key#>"]`
 		
-示例代码：[- (void)personKVCFuncObjectFuntion {...}](https://github.com/dengni8023/Denngni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
+示例代码：[- (void)personKVCFuncObjectFuntion {...}](https://github.com/dengni8023/Dengni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
 
 3. 针对集合属性的Array和Set运算符，如下：
 
@@ -174,7 +174,7 @@ KVC提供很复杂的函数用于操作对象集合，主要有下面这些：
 		2. @unionOfArrays 元素的全集Array，`[<#Array#> valueForKeyPath:@"@ unionOfArrays.<#key#>"]`，Key对应属性为Array或者Set
 		3. @distinctUnionOfSets，Set不支持重复元素，因此和@distinctUnionOfArrays类似，Key对应属性必须为Set
 
-示例代码：[- (void)personKVCFuncCollectFuntion {...}](https://github.com/dengni8023/Denngni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
+示例代码：[- (void)personKVCFuncCollectFuntion {...}](https://github.com/dengni8023/Dengni8023BlogDemo/blob/master/JGBlogExample/JGBlogExample/Classes/KVC_KVO/KVC_KVOViewController.m)
 
 # KVB
 
@@ -338,7 +338,7 @@ KVO消息处理是在被观察值发生变化的线程上进行的，KVO消息�
 
 ### 测试代码
 
-[测试代码 - 请使用KVC_KVOViewController类进行修改测试](https://github.com/dengni8023/Denngni8023BlogDemo)
+[测试代码 - 请使用KVC_KVOViewController类进行修改测试](https://github.com/dengni8023/Dengni8023BlogDemo)
 
 # 参考资料
 
