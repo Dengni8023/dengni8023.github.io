@@ -284,7 +284,7 @@ KVO同KVC一样，通过 isa-swizzling 技术来实现。当观察者被注册�
 
 Apple 使用了 isa 混写（isa-swizzling）来实现 KVO 。当观察对象A时，KVO机制动态创建一个新的名为：NSKVONotifying_A 的新类，该类继承自对象A的本类，且 KVO 为 NSKVONotifying_A 重写观察属性的 setter 方法，setter 方法会负责在调用原 setter 方法之前和之后，通知所有观察对象属性值的更改情况。
 
-![](http://p4lg5gp18.bkt.clouddn.com/iOS%E5%BC%80%E5%8F%91%E4%B9%8BKVC%E3%80%81KVB%E3%80%81KVO-1.png)
+![](http://github-blog.dengni8023.com/iOS开发之KVC、KVB、KVO-1.png)
 
 1. NSKVONotifying_A 类剖析
 	> 在这个过程，被观察对象的 isa 指针从指向原来的 A 类，被 KVO 机制修改为指向系统新创建的子类 NSKVONotifying_A 类，来实现当前类属性值改变的监听。
