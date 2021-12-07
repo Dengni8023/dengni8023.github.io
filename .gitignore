@@ -1,19 +1,24 @@
+# Created by MeiJigao (945835664@qq.com)
 
-# Created by https://www.gitignore.io/api/macos
+### SVN ###
+.svn/
+
+### Git ###
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
 ### macOS ###
-*.DS_Store
+.DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
-Icon
-
-
-# Thumbnails
 ._*
-
-# Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -21,15 +26,172 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/macos
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ### Xcode ###
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+build
+DerivedData/
+*.moved-aside
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+/*.gcno
+Pods
+
+### VisualStudioCode ###
+.vscode/*
+.history
+
+# ### Intellij+all ###
+.idea
+cmake-build-*/
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+*.iml
+modules.xml
+*.ipr
+
+### AndroidStudio ###
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+.gradle
+.signing/
+local.properties
+*.log
+production/
+captures/
+.navigation/
+*~
+*.swp
+gen-external-apklibs
+.externalNativeBuild
+obj/
+.classpath
+.project
+.cproject
+.settings/
+.mtj.tmp/
+*.war
+*.ear
+hs_err_pid*
+!/gradle/wrapper/gradle-wrapper.jar
+
+### ReactNative ###
+.expo
+__generated__
+
+### ReactNative.Buck Stack ###
+buck-out/
+.buckconfig.local
+.buckd/
+.buckversion
+.fakebuckversion
+
+### ReactNative.Node Stack ###
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+*.lcov
+.nyc_output
+.grunt
+
+bower_components
+.lock-wscript
+node_modules/
+jspm_packages/
+typings/
+*.tsbuildinfo
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+
+.env
+.env.test
+.cache
+.next
+.nuxt
+public/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### ReactNative.Android Stack ###
+*.aab
+# release/
+freeline.py
+freeline/
+freeline_project_description.json
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+vcs.xml
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+gradle-app.setting
+.gradletasknamecache
+Gemfile
+Gemfile.lock
+android/opencv/.cxx
+android/opencv/build
+android/opencv/java/javadoc
 
 # debug file
 _site
