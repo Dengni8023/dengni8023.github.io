@@ -102,17 +102,15 @@ UIKeyboardWillShowNotification中更新高度注意：
 
 ## 键盘效果图（iPhone XS）
 
-<img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-1.png" width="16%"/>
-<img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-2.png" width="16%"/>
-<img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-3.png" width="16%"/>
-<img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-4.png" width="16%"/>
-<img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-5.png" width="16%"/>
-<img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-6.png" width="16%"/>
+<table>
+<tr>
+<td><img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-1.png"/></td>
+<td><img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-2.png"/></td>
+<td><img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-3.png"/></td>
+</tr>
+</table>
 
-<img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-7.png" width="32%"/>
-<img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-8.png" width="32%"/>
-<img src="http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-9.png" width="32%"/>
-
+![](http://github-blog.dengni8023.com/iOS自定义安全键盘JGSourceBase解读-4.png)
 
 # 参考资料
 
