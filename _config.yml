@@ -1,32 +1,27 @@
 # Site settings
-title: Dengni8023
-SEOTitle: Dengni8023的博客 | Dengni8023 Blog
-header-img: img/default-header.jpg
-email: 945835664@qq.com
-description: "Know more. Do more. Be more."
-keyword: "等你8023, Dengni8023, Jigao, 继高, iOS, Apple, iPhone"
-url: "http://dengni8023.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/dengni8023/dengni8023.github.io.git" # you code repository
+title: Dengni8023 # 博客的标题
+SEOTitle: Dengni8023的博客 | Dengni8023 Blog # 显示在浏览器上搜索的时候显示的标题
+header-img: img/default-header.jpg # 显示在首页的背景图片
+email: 945835664@qq.com # 联系邮箱地址
+description: "Dengni8023个人学习总结博客。" # 网站介绍
+keyword: "等你8023, Dengni8023, Jigao, 继高, iOS, Apple, iPhone" # 关键词
+url: "http://dengni8023.github.io" # 博客地址
+baseurl: ""      # 一般无需配置 for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/dengni8023/dengni8023.github.io.git" # 博客仓库地址
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "虚心学习，执行至上，成就更好的自己。"
-sidebar-avatar: /img/avatar-dengni8023.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+sidebar: true # 是否开启侧边栏
+sidebar-about-description: "虚心学习，执行至上，成就更好的自己。" # 侧边栏格言，装逼的话...
+sidebar-avatar: /img/avatar-dengni8023.jpg # 你的个人头像，可以改成img文件夹中的照片
 
 # SNS settings
 #RSS: false # RSS阅读器
 #weibo_username:     username
 #zhihu_username:     username
-github_username:    dengni8023
+github_username:    Dengni8023
 #facebook_username:  username
 #jianshu_username:   jianshu_id
 #twitter_username:   username
-
-
-
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -35,14 +30,9 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-
-
 # Plugins
 # support local preview for Jekyll 3.7
 plugins: [jekyll-paginate]
-
-
-
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -52,8 +42,6 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
 input: GFM                            # use Github Flavored Markdown !important
-
-
 
 # 评论系统
 # Disqus（https://disqus.com/）
@@ -69,7 +57,6 @@ gitalk:
   admin: dengni8023
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
-
 # 统计
 
 # Analytics settings
@@ -80,21 +67,13 @@ gitalk:
 #ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
 #ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
-
-
-
-
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
-
-
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
-
 
 # Friends
 friends: [
