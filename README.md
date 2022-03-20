@@ -1,7 +1,7 @@
 <!--
  * @Author: 梅继高
  * @Date: 2020-02-09 23:22:22
- * @LastEditTime: 2021-12-07 20:21:19
+ * @LastEditTime: 2022-03-20 10:26:35
  * @LastEditors: 梅继高
  * @Description: 
  * @FilePath: /dengni8023.github.io/README.md
@@ -77,7 +77,7 @@
 		```
 		# Sidebar settings
 		sidebar: true # 是否开启侧边栏
-		sidebar-about-description: "虚心学习，执行至上，成就更好的自己。" # 侧边栏格言，装逼的话...
+		sidebar-about-description: "Not implemented, everything is nothing.<br /><br />没有执行，一切为零。" # 侧边栏格言，装逼的话...
 		sidebar-avatar: /img/avatar-dengni8023.jpg # 你的个人头像，可以改成img文件夹中的照片
 		```
 	
