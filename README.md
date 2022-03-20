@@ -1,7 +1,7 @@
 <!--
  * @Author: 梅继高
  * @Date: 2020-02-09 23:22:22
- * @LastEditTime: 2022-03-20 10:49:16
+ * @LastEditTime: 2022-03-20 10:50:29
  * @LastEditors: 梅继高
  * @Description: 
  * @FilePath: /dengni8023.github.io/README.md
@@ -215,35 +215,35 @@ Provider：推送服务提供者，即接受推送Client APP的后台服务器�
 	出现如下错误：
 	
 	```
-      Configuration file: /Users/meijigao/Desktop/Git•GitHub/Dengni8023/dengni8023.github.io/_config.yml
-                  Source: /Users/meijigao/Desktop/Git•GitHub/Dengni8023/dengni8023.github.io
-             Destination: /Users/meijigao/Desktop/Git•GitHub/Dengni8023/dengni8023.github.io/_site
-       Incremental build: disabled. Enable with --incremental
-            Generating... 
-                          done in 0.035 seconds.
-       Auto-regeneration: enabled for '/Users/meijigao/Desktop/Git•GitHub/Dengni8023/dengni8023.github.io'
-                          ------------------------------------------------
-            Jekyll 4.2.1   Please append `--trace` to the `serve` command 
-                           for any additional information or backtrace. 
-                          ------------------------------------------------
-      <internal:/opt/homebrew/Cellar/ruby/3.0.2_1/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require': cannot load such file -- webrick (LoadError)
-              from <internal:/opt/homebrew/Cellar/ruby/3.0.2_1/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve/servlet.rb:3:in `<top (required)>'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve.rb:179:in `require_relative'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve.rb:179:in `setup'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve.rb:100:in `process'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/command.rb:91:in `each'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
-              from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/exe/jekyll:15:in `<top (required)>'
-              from /usr/local/bin/jekyll:23:in `load'
-              from /usr/local/bin/jekyll:23:in `<main>'
+   Configuration file: /Users/meijigao/Desktop/Git•GitHub/Dengni8023/dengni8023.github.io/_config.yml
+               Source: /Users/meijigao/Desktop/Git•GitHub/Dengni8023/dengni8023.github.io
+          Destination: /Users/meijigao/Desktop/Git•GitHub/Dengni8023/dengni8023.github.io/_site
+    Incremental build: disabled. Enable with --incremental
+         Generating... 
+                       done in 0.035 seconds.
+    Auto-regeneration: enabled for '/Users/meijigao/Desktop/Git•GitHub/Dengni8023/dengni8023.github.io'
+                       ------------------------------------------------
+         Jekyll 4.2.1   Please append `--trace` to the `serve` command 
+                        for any additional information or backtrace. 
+                       ------------------------------------------------
+   <internal:/opt/homebrew/Cellar/ruby/3.0.2_1/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require': cannot load such file -- webrick (LoadError)
+           from <internal:/opt/homebrew/Cellar/ruby/3.0.2_1/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve/servlet.rb:3:in `<top (required)>'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve.rb:179:in `require_relative'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve.rb:179:in `setup'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve.rb:100:in `process'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/command.rb:91:in `each'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+           from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/exe/jekyll:15:in `<top (required)>'
+           from /usr/local/bin/jekyll:23:in `load'
+           from /usr/local/bin/jekyll:23:in `<main>'
 ```
     
     报错显示缺少`webrick`，最新Ruby中不再包含`webrick`，通过各种尝试及查看[Jekyll官方文档](https://jekyllrb.com/docs/)，确认`gem install `不再适用，需要通过bundle方式
