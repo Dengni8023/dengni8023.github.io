@@ -1,7 +1,7 @@
 <!--
  * @Author: 梅继高
  * @Date: 2020-02-09 23:22:22
- * @LastEditTime: 2022-03-20 10:50:29
+ * @LastEditTime: 2022-03-20 10:51:57
  * @LastEditors: 梅继高
  * @Description: 
  * @FilePath: /dengni8023.github.io/README.md
@@ -244,7 +244,7 @@ Provider：推送服务提供者，即接受推送Client APP的后台服务器�
            from /opt/homebrew/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/exe/jekyll:15:in `<top (required)>'
            from /usr/local/bin/jekyll:23:in `load'
            from /usr/local/bin/jekyll:23:in `<main>'
-```
+   ```
     
     报错显示缺少`webrick`，最新Ruby中不再包含`webrick`，通过各种尝试及查看[Jekyll官方文档](https://jekyllrb.com/docs/)，确认`gem install `不再适用，需要通过bundle方式
     
