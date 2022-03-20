@@ -187,8 +187,8 @@ lint/outputs/
 lint/tmp/
 gradle-app.setting
 .gradletasknamecache
-Gemfile
-Gemfile.lock
+# Gemfile
+# Gemfile.lock
 android/opencv/.cxx
 android/opencv/build
 android/opencv/java/javadoc
