@@ -1,7 +1,7 @@
 <!--
  * @Author: 梅继高
  * @Date: 2020-02-09 23:22:22
- * @LastEditTime: 2022-03-20 10:51:57
+ * @LastEditTime: 2023-02-14 17:10:37
  * @LastEditors: 梅继高
  * @Description: 
  * @FilePath: /dengni8023.github.io/README.md
@@ -312,9 +312,10 @@ Provider：推送服务提供者，即接受推送Client APP的后台服务器�
 
 ## 参考资料
 
-1. [快速搭建个人博客](http://qiubaiying.vip/2017/02/06/快速搭建个人博客/)
-2. [Jekyll官方文档](https://jekyllrb.com/docs/)
-3. [Jekyll github page博客本地调](https://www.jianshu.com/p/20ea66b43e21)
+1. [快速搭建个人博客](http://qiubaiying.github.io/2017/02/06/快速搭建个人博客/)
+2. [搭建免费个人博客](https://www.jianshu.com/p/4eaddcbe4d12)
+3. [Jekyll官方文档](https://jekyllrb.com/docs/)
+4. [Jekyll github page博客本地调](https://www.jianshu.com/p/20ea66b43e21)
 
 ## License
 
